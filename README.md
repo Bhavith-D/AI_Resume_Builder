@@ -1,12 +1,63 @@
-# React + Vite
+# 🤖 AI Resume Builder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a web application that leverages the power of AI to help you tailor your resume to specific job descriptions. By analyzing the skills and keywords in a job posting, it optimizes your existing resume to increase your chances of getting noticed by recruiters and Applicant Tracking Systems (ATS).
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+  - **AI-Powered Optimization**: Uses the Gemini API to analyze job descriptions and refine your resume.
+  - **Dynamic Preview**: Get an instant PDF preview of your newly generated resume.
+  - **User-Friendly Interface**: Simple and intuitive design for a seamless user experience.
+  - **Secure Handling**: Your API key and resume data are stored locally in your browser and are not sent to any server other than the backend for processing.
 
-## Expanding the ESLint configuration
+-----
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Getting Started
+
+Follow these steps to set up and run the project locally.
+
+### Prerequisites
+
+  - Node.js (v14 or higher)
+  - npm or yarn
+  - A Google Gemini API Key
+
+### Installation
+
+1.  **Clone the repository**:
+    ```bash
+    git clone https://github.com/Bhavith-D/AI_Resume_Builder.git
+    cd AI_Resume_Builder
+    ```
+2.  **Install dependencies**:
+    ```bash
+    npm install
+    ```
+    or
+    ```bash
+    yarn install
+    ```
+
+### Usage
+
+1.  **Run the application**:
+    ```bash
+    npm run dev
+    ```
+    or
+    ```bash
+    yarn dev
+    ```
+    The application will be accessible at `http://localhost:5173`.
+2.  **Access the application in your browser**.
+3.  **Navigate to the Account page** to input your Google Gemini API key and upload your resume in JSON format.
+4.  **Go to the Resume Builder page**, paste a job description, and click "Generate Optimized Resume" to see the magic happen\!
+
+-----
+
+## 🤝 Contributing
+
+Contributions are welcome\! If you find a bug or have a feature request, please open an issue.
+
+## 📄 License
+
+This project is licensed under the [MIT License](https://www.google.com/search?q=LICENSE).
